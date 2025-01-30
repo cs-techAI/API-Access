@@ -117,7 +117,7 @@ st.set_page_config(page_title="Excel QnA with LLMs", layout="wide")
 st.title("📊 Excel-based QnA using LLMs")
 
 # create tabs for navigation
-tabs = st.tabs(["Upload Data", "View Data", "Markdown", "Ask AI", "Data Sent to LLM"])
+tabs = st.tabs(["Upload Data", "View Data", "Markdown", "Ask AI"])
 
 # sidebar for llm Selection and API Key input
 with st.sidebar:
