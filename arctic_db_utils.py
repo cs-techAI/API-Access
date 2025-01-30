@@ -28,7 +28,7 @@ def log_data_to_arctic(api_name, prompt, response, response_time, token_count):
         "api_name": api_name,
         "prompt": prompt,
         "response": response,
-        "response_time_ms": response_time,
+        "response_time_ms": response_time, 
         "token_count": token_count,
     }
 
