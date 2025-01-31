@@ -1,54 +1,54 @@
 import streamlit as st
-import pandas as pd
-import json
+import pandas as pd   # processing and reading excel data
+import json       # converts data into a structured format for ai models
 import time
 from transformers import pipeline
-from arctic_db_utils import log_data_to_arctic, calculate_token_count
+from db_utils import log_data_to_arctic, calculate_token_count  # for log and token calculation
 
 
 
 # excel data processing
 def preprocess_excel(file):
-    workbook = pd.ExcelFile(file)
+    workbook = pd.ExcelFile(file)  # stores all the sheets in the file
     data = {}
-    for sheet in workbook.sheet_names:
-        df = workbook.parse(sheet)
-        data[sheet] = df.to_dict(orient="records")  # Converts the data into a list of dictionaries
+    for sheet in workbook.sheet_names:  # iterates through each sheet
+        df = workbook.parse(sheet)      # reads the current sheet into a df
+        data[sheet] = df.to_dict(orient="records")  # Converts the df into a list of dictionaries
     return workbook.sheet_names, data
 
 # markdown format
-def convert_to_markdown(dataframe):
-    return dataframe.to_markdown(index=False, tablefmt="grid")
+def convert_to_markdown(dataframe):     # from 157
+    return dataframe.to_markdown(index=False, tablefmt="grid")  # converts to markdown
 
 # summarize data
 def summarize_data(data, max_rows=10, max_columns=None):
     summarized_data = {}             # limits the no. of rows sent to the llm i have set only 10
-    for sheet_name, rows in data.items():
+    for sheet_name, rows in data.items():  # iterates over each sheet and each rows in sheet    
         if max_columns:
             df = pd.DataFrame(rows)
-            rows = df.iloc[:, :max_columns].to_dict(orient="records") 
-        summarized_data[sheet_name] = rows[:max_rows] 
-    return summarized_data
+            rows = df.iloc[:, :max_columns].to_dict(orient="records")   # converts only max_column and df back to list of dict
+        summarized_data[sheet_name] = rows[:max_rows] # limits the max rows     
+    return summarized_data    # dictionaries 
 
 # deepSeek Model
 def deepseek_model(api_key, summarized_data, user_query): 
 
-    from openai import OpenAI
+    from openai import OpenAI     # imports openai class interacted through deepseek
 
-    client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
+    client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")  # sends req to deepseek
 
     prompt = f"{user_query}\nData: {json.dumps(summarized_data)}"
     token_count = calculate_token_count(prompt, model="deepseek-chat")
 
 
-    if token_count > 200:     # set max tokens as 200
+    if token_count > 200:
         raise ValueError("Payload exceeds maximum token limit. Summarize or filter the data.")
 
-    start_time = time.time()
+    start_time = time.time()  # starts time before sending the request
     response = client.chat.completions.create(
         model="deepseek-chat",
-        messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
+        messages=[      # these are the context provided to the model
+            {"role": "system", "content": "You are a helpful assistant."},  # this sets the role of AI
             {"role": "user", "content": user_query},
             {"role": "user", "content": f"Data: {json.dumps(summarized_data)}"},
         ],
@@ -58,14 +58,14 @@ def deepseek_model(api_key, summarized_data, user_query):
     response_content = response.choices[0].message.content
 
     
-    log_data_to_arctic("DeepSeek", prompt, response_content, response_time_ms, token_count)
+    log_data_to_arctic("DeepSeek", prompt, response_content, response_time_ms, token_count)  # tracks api usage
     return response_content, token_count, summarized_data
 
 # openAI Model
 def openai_model(api_key, summarized_data, user_query):
 
 
-    from openai import OpenAI
+    from openai import OpenAI   
 
     client = OpenAI(api_key=api_key)
 
@@ -93,10 +93,10 @@ def openai_model(api_key, summarized_data, user_query):
 # Hugging Face Model
 def huggingface_model(summarized_data, user_query):
 
-    context = " ".join(
+    context = " ".join(   # here we format the context 
         [
             f"Sheet: {sheet_name}, " + ", ".join([f"{k}: {v}" for row in rows for k, v in row.items()])
-            for sheet_name, rows in summarized_data.items()
+            for sheet_name, rows in summarized_data.items()  
         ]
     )
     token_count = calculate_token_count(context, model="distilbert-base-cased")
