@@ -1,0 +1,249 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
+  <diagram name="Page-1" id="lYU4gNP7W3rCrEIS3l9G">
+    <mxGraphModel dx="794" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LQbd0GUSjGHncgmstUIU-1" value="Start" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;textShadow=1;shadow=1;rounded=1;fillStyle=cross-hatch;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontStyle=1;labelBorderColor=none;glass=0;fontColor=#336600;" vertex="1" parent="1">
+          <mxGeometry x="356" y="20" width="430" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-2" value="User Uploads Excel File" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;rounded=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontStyle=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="457" y="120" width="223" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-3" value="Process Excel Data" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontStyle=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="474" y="251" width="193" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-4" value="Extract Sheet Names &amp; Data" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontStyle=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="441" y="355" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-5" value="User Navigates Tabs" style="rhombus;strokeWidth=2;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;textShadow=1;shadow=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontStyle=1;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="473" y="505" width="195" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-6" value="Show Upload Interface" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontColor=#0000FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="20" y="785" width="222" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-7" value="Display Sheets as Radio Buttons" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontColor=#0000FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="292" y="773" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-8" value="User Selects a Sheet" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontColor=#0000FF;fontStyle=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;" vertex="1" parent="1">
+          <mxGeometry x="319" y="901" width="206" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-9" value="Show Data Preview" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontColor=#0000FF;fontStyle=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;" vertex="1" parent="1">
+          <mxGeometry x="324" y="1005" width="196" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-10" value="Show Markdown Preview" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontStyle=1;fontColor=#0000FF;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;" vertex="1" parent="1">
+          <mxGeometry x="602" y="785" width="235" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-11" value="User Selects a Sheet" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontStyle=1;fontColor=#0000FF;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;" vertex="1" parent="1">
+          <mxGeometry x="617" y="901" width="206" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-12" value="Convert Data to Markdown" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontColor=#0000FF;fontStyle=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;" vertex="1" parent="1">
+          <mxGeometry x="594" y="1005" width="251" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-13" value="Show Markdown Data" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontStyle=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="614" y="1213" width="212" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-14" value="User Enters Question" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontColor=#0000FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="900" y="785" width="210" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-15" value="Summarize Data" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontColor=#0000FF;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="917" y="901" width="176" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-16" value="Calculate Token Count" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontStyle=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="895" y="1005" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-17" value="User Provided API Key?" style="rhombus;strokeWidth=2;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;textShadow=1;shadow=1;fontStyle=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="897" y="1132" width="215" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-18" value="Select LLM Model" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontColor=#0000FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="827" y="1420" width="184" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-19" value="Send Data to OpenAI" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontStyle=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="404" y="1547" width="208" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-20" value="Send Data to DeepSeek" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontColor=#0000FF;fontStyle=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;" vertex="1" parent="1">
+          <mxGeometry x="662" y="1547" width="226" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-21" value="Send Data to Hugging Face" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontColor=#0000FF;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="937" y="1547" width="251" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-22" value="Receive AI Response" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontColor=#0000FF;fontStyle=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;" vertex="1" parent="1">
+          <mxGeometry x="639" y="1651" width="203" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-23" value="Display AI Response" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontColor=#0000FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="641" y="1755" width="199" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-24" value="Show Error: No API Key" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontStyle=1;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="1123" y="1755" width="224" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-25" value="End" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;textShadow=1;shadow=1;fontStyle=1;fillStyle=cross-hatch;fontFamily=Merienda;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerienda;fontColor=#CC0000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1859" width="200" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-1" target="LQbd0GUSjGHncgmstUIU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-27" value="File Uploaded" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-2" target="LQbd0GUSjGHncgmstUIU-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-3" target="LQbd0GUSjGHncgmstUIU-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-29" value="Data Processed" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-4" target="LQbd0GUSjGHncgmstUIU-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-30" value="Upload Data Tab" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.65;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-5" target="LQbd0GUSjGHncgmstUIU-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="131" y="737" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-31" value="View Data Tab" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.95;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-5" target="LQbd0GUSjGHncgmstUIU-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="422" y="737" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-7" target="LQbd0GUSjGHncgmstUIU-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-8" target="LQbd0GUSjGHncgmstUIU-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-34" value="Markdown Tab" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.95;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-5" target="LQbd0GUSjGHncgmstUIU-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="719" y="737" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-10" target="LQbd0GUSjGHncgmstUIU-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-11" target="LQbd0GUSjGHncgmstUIU-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-12" target="LQbd0GUSjGHncgmstUIU-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-38" value="Ask AI Tab" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.66;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-5" target="LQbd0GUSjGHncgmstUIU-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1005" y="737" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-14" target="LQbd0GUSjGHncgmstUIU-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-15" target="LQbd0GUSjGHncgmstUIU-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-41" value="Show Token Count" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-16" target="LQbd0GUSjGHncgmstUIU-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-42" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=1;entryX=0.5;entryY=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-17" target="LQbd0GUSjGHncgmstUIU-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="919" y="1384" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-43" value="ChatGPT" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.76;entryX=0.5;entryY=-0.01;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-18" target="LQbd0GUSjGHncgmstUIU-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="508" y="1510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-44" value="DeepSeek" style="curved=1;startArrow=none;endArrow=block;exitX=0.16;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-18" target="LQbd0GUSjGHncgmstUIU-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="775" y="1510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-45" value="Hugging Face" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-18" target="LQbd0GUSjGHncgmstUIU-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1063" y="1510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-46" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.07;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-19" target="LQbd0GUSjGHncgmstUIU-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="508" y="1626" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.59;entryY=-0.01;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-20" target="LQbd0GUSjGHncgmstUIU-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="775" y="1626" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.19;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-21" target="LQbd0GUSjGHncgmstUIU-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1063" y="1626" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-22" target="LQbd0GUSjGHncgmstUIU-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-50" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.81;entryX=0.5;entryY=-0.01;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-17" target="LQbd0GUSjGHncgmstUIU-24">
+          <mxGeometry x="0.0265" y="-25" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1235" y="1384" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-51" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.33;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-23" target="LQbd0GUSjGHncgmstUIU-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="741" y="1834" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQbd0GUSjGHncgmstUIU-52" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.31;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;shadow=1;" edge="1" parent="1" source="LQbd0GUSjGHncgmstUIU-24" target="LQbd0GUSjGHncgmstUIU-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1235" y="1834" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
